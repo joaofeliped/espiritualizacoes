@@ -2,27 +2,33 @@
     <head>
         <title>Espiritualizações</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        
+        <style>
+            .layout-planos div button {
+               text-align: center;
+                padding: 12% 20%;
+                margin: 1em;
+                font-size: 50px 
+            }
+        </style>
     </head>
 
     <body>
-        <div class="container">
-            <div class="row">
-                <button type="button" class="btn btn-primary">1 Espiritualização</button>
-            </div>
-            <div class="row">
-                <button type="button" class="btn btn-primary">2 Espiritualização</button>
-            </div>
-            <div class="row">
-                <button type="button" class="btn btn-primary">3 Espiritualização</button>
-            </div>
-            <div class="row">
-                <button type="button" class="btn btn-primary">4 Espiritualização</button>
-            </div>
-            <div class="row">
-                <button type="button" class="btn btn-primary">5 Espiritualização</button>
-            </div>
-            <div class="row">
-                <button type="button" class="btn btn-primary">6 Espiritualização</button>
+        <div class="container layout-planos">
+            <div class="form-group">
+                
+                <button type="button" class="btn btn-primary">1ª Espiritualização</button>
+                
+                <button type="button" class="btn btn-primary" disabled>2ª Espiritualização</button>
+                
+                <button type="button" class="btn btn-primary" disabled>3ª Espiritualização</button>
+                
+                <button type="button" class="btn btn-primary" disabled>4ª Espiritualização</button>
+                
+                <button type="button" class="btn btn-primary" disabled>5ª Espiritualização</button>
+                
+                <button type="button" class="btn btn-primary" disabled>6ª Espiritualização</button>
+                
             </div>
         </div>
     </body>
